@@ -6,6 +6,6 @@ export default class CoordinatesButton extends React.Component{
   getCoordinates = (event) => {debugger}
 
   render(){
-    <button onClick={}></button>
+    <button onClick={this.getCoordinates}>Button</button>
   }
 }
